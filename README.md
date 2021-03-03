@@ -16,6 +16,6 @@ Die Nutzung erfolgt auf eigene Gefahr. Es kann sein, dass Inhalte nicht wie gew√
 Die Design-Anpassung kann mit dem Browser-Addon Stylus benutzt werden - https://add0n.com/stylus.html
 
 ## Bilder sagen mehr als Worte
-![Startseite](https://i.imgur.com/yHMALc5.png)
-![Anzeige](https://i.imgur.com/BaUNEoY.png)
-![Suche](https://i.imgur.com/xy7B1FL.png)
+![Startseite](https://i.imgur.com/0O0ZY51.png)
+![Anzeige](https://i.imgur.com/JglvWz7.png)
+![Suche](https://i.imgur.com/LphOFVK.png)
