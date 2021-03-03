@@ -6,241 +6,187 @@ body
     overflow-x: hidden;
 }
 
-/* Page: Buttons */
-.button,
-.button:hover,
-.button-secondary,
-.button-secondary:hover,
-.button-tertiary,
-.button-tertiary:hover,
-#viewad-contact-button,
-.button-ghost,
-.button-ghost:hover,
-.follow-user-button,
-.follow-user-button:hover {
-    color: #fff;
-    background-color: #232323;
-    border: 1px solid #808080;
-}
-
-.follow-user-button > .button-icon,
-.button-ghost > .button-icon {
-    display: none;
-}
-
-/* PAGE: Header */
-header#site-header
-{
-    background-color: #000;
-    color: #939393;
-}
-a#user-logout
-{
-    color: #fff;
-}
-span#site-logo-claim
-{
-    color: #939393;
-}
-#site-searchbar
-{
-    background: #555653;
-}
-#site-search-submit
-{
-    background: black;
-}
-.mainnav-item-inner
-{
-    background-image: none !important;
-    padding-left: 7px !important;
-}
-#site-subnav,
-#site-subnav *
-{
-    background: #848484;
+a, h1, h2, h3, h4, h5, h6, strong, .splitheader--title *,
+.text-light, .text-small, .headline-small, .iconlist-text, .textdropdown {
     color: white !important;
 }
 
-/* PAGE: Home: Categories */
-#home-ctgrs,
-#browsebox-searchform *
-{
-    color: white;
-    background-color: #555653;
+a#user-logout {
+    color: #de5858 !important;
 }
-header > h3
-{
-    color: white;
-}
-#home-ctgrs * > a
-{
+
+.contentbox, .contentbox-unpadded, .contentbox-info, .contentbox-landingpage {
+    background-color: #3e3e3e !important;
     color: white;
 }
 
-/* Page: Breadcrumbs */
-.breadcrump-link
-{
-    color: white;
-    background: none !important;
-}
-.breadcrump-link:not(:last-child) span
-{
-    content: 'dd';
-}
-
-
-.pagination-current,
-.pagination-current:hover {
-    background: white;
-    color: black !important;
-}
-
-.pagination-page {
-    background: transparent;
-    color: white;
-}
-
-.pagination-pages span {
-    color: white;
-}
-
-
-.pagination-next:after {
-    content: '>';
-}
-
-.pagination-prev:after {
-    content: '<';
-}
-
-.pagination-prev,
-.pagination-next {
-    background: white !important;
-    color: black !important;
-}
-
-/* Page: Content */
-#site-content
-{
-    top: 0px !important;
-    position: relative !important;
-}
-
-.contentbox,
-.contentbox > .boxedarticle--details,
-.text-light,
-.text-bold *
-{
-    background: #1e1e1e;
-    color: white;
-}
-
-.simpletag,
-.srp-header,
-.srp-header *
-{
-    background: #434141 !important;
-    color: #fff !important;
-}
-
-/* Advertise: List */
-article.aditem, article.aditem * {
+/* Suche */
+.ad-listitem.lazyload-item > .aditem,
+.aditem-main--middle--description,
+.aditem-main--top--left,
+.aditem-main--top--right {
     color: white !important;
-    background: #555653;
+    background: #222 !Important;
 }
 
-.aditem-main--top--left > i {
-    display: none;
+/* Startseite */
+#home-ctgrs {
+    background: #3e3e3e !important;
 }
 
-.itemtile-body,
-.itemtile-body *,
-.itemtile-header
-{
-    background: #464646;
-    color: white !important;
+.itemtile,
+.itemtile-fullpic {
+    color: white;
+    background: #3e3e3e !important;
 }
 
-.ellipsis {
+/* Navigation */
+.notification-center .bell-container a {
+    background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQflAwMPLRjnUnArAAAAvklEQVQoz6WRwQoBYRSFv99CI6VBYS9PQKZmwVtY2HgKG8nC09iNeQRSrOUNpCbEymZSx8LM1BAld3W65+vUPRd+G/XU/2R1VVZOC62UU1ndV7ummRzNNdBAvtqaqZIGxmrKUxZAWXlqafR0MhFR587ahAAmZENIIw0MsTklgUeKDFOAOWMTJEBAwZzTCeCyTfQON5YRoCoFc4iXZo8dX2EiYEKHC0VuQJ4rJZZm+l6WI1++2t+qtmT9+J3/5wHK9UYd7wE2YgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wMy0wM1QxNTo0NToyNCswMDowMPGQ+aQAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDMtMDNUMTU6NDU6MjQrMDA6MDCAzUEYAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==) center right/24px 24px no-repeat;
+}
+
+.browsebox-selected-itembox {
     background: transparent !important;
+}
+
+#site-header,
+#site-header, .dropdown-list, .dropdown-list.is-active, li.selectbox-option,
+li.selectbox-option {
+    background: #3e3e3e !important;
+    color: white !important;
+}
+
+.logo > a > img {
+    height: 20px;
+}
+
+.a-green.bar {
+    background-color: #505050;
+}
+
+.dropdown-list li {
     color: white;
 }
 
-/* Advertise: View */
-#viewad-main-info,
-#viewad-cntr-num,
-#viewad-details,
-#viewad-details *,
-#viewad-description,
-#viewad-description *,
-#viewad-contact-bottom,
-#viewad-configuration,
-#viewad-configuration *,
-#viewad-imprint-section,
-#viewad-imprint-section *,
-.sectionbox,
-.sectionbox *,
-.ad-listitem {
-    background: #1e1e1e !important;
+.mainnav-item:hover,
+.mainnav-item.on{
+    color: white;
+    background-color: #5f5f5f;
+}
+
+.mainnav-sub {
+    background: #3e3e3e !important;
+    color: white !important;
+    border: none;
+}
+
+
+/* Breadcrumbs */
+.breadcrump-link:not(:last-child) {
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQflAwMPFjYHNpLcAAAASElEQVQoz2NgoDf4n/hfEZ800/87/x/+V8KnRPb/nf+P/ivjV3KXkBL5//f/P/wvAeExke4PObxWEJJm+n/3/0P8IYE/oGgDABOiLp06o2BPAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIxLTAzLTAzVDE1OjIyOjU0KzAwOjAw8TwhhwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMS0wMy0wM1QxNToyMjo1NCswMDowMIBhmTsAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC') no-repeat right center !important;
+}
+
+/* Profil */
+.userprofile {
+    background-color: #3e3e3e !important;
     color: white;
 }
 
-/* Advertise View: Profile */
-#viewad-bizteaser--title a {
+/* Anzeige */
+#viewad-main .contentbox,
+#viewad-main .splitlinebox {
+    background-color: #3e3e3e !important;
     color: white;
 }
 
-/* Advertise View: Content */
-.addetailslist--detail--value
+.simpletag, .tag-small {
+    background-color: gray;
+    color: white;
+}
+
+/* Anzeigenliste unterhalb Anzeige */
+ul.ad-list > li > article {
+    color: white !important;
+    background-color: #3e3e3e !important;
+    border-top: none !important;
+}
+
+/* Buttons */
+button,
+.button,
+.button-tertiary
 {
-    color: #aeaeae !important;
+    border: none !important;
+    background: #791919 !important;
+    color: white !important;
 }
 
+button:hover,
+.button:hover,
+.button-tertiary:hover {
+    border: none !important;
+    background: #b54444 !important;
+    color: white !important;
+}
 
-/* MISC CONTENT: Promoted and Generic */
-#home-tsr-srvy,
-#store-gallery,
+button > i,
+.button > i,
+.button-tertiary > i {
+    display: none;
+}
+
+.button-ghost:hover {
+    background: transparent;
+    text-decoration: underline;
+    text-decoration-color: white;    
+}
+
+/* Removes Useless areas */
+header.splitheader,
+.j-viewad-contact-legal,
+#home-tsr-srvy {
+    display: none;
+}
+
+/* Removes Featured Sections */
 #home-gallery,
 #home-topcitybx,
-#site-footer,
-.j-viewad-contact-legal,
-.j-liberty-wrapper,
-header.splitheader,
-div[data-liberty-position-name]
-{
+#store-gallery {
     display: none;
 }
 
-.site-base--left-banner,
-.site-base--right-banner
-{
-    margin: 0;
-    padding: 0;
-    top: 0;
-    left: 0;
-    visibility: hidden !important;
+/* Removes Advertising */
+#site-content, #site-footer {
+    top: 0 !important;
 }
 
-.itemlist-separatedbefore > li:first-child,
-.itemlist-padded-separatedbefore > li:first-child,
-.itemlist > li + li,
-.itemlist-separatedbefore > li + li,
-.itemlist-padded-separatedbefore > li + li,
-.itemlist-separatedafter > li + li,
-.itemlist-padded-separatedafter > li + li,
-.itemlist-padded > li + li
-{
-    border-top: gray 1px solid !important;
+.site-base--right-banner--full,
+.site-base--left-banner {
+    visibility: hidden;
 }
-.splitlinebox h1,
-.splitlinebox h2,
-.splitlinebox h3,
-.splitlinebox h4,
-.splitlinebox h5
+
+div[data-liberty-position-name],
+div[data-liberty-position-name="my_messages-top-banner"],
+#my-msgbox-atf,
+.j-liberty-wrapper,
+.banner,
+#aax_liberty-my_messages-top-banner,
+#aax_liberty-my_messages-sky-atf-left
 {
-    border-bottom: none;
-    padding-bottom: 16px;
+    display: none !important;
+}
+
+input {
+    color: black !important;
+}
+
+
+.Messagebox, .Messagebox * {
+    color: #212020 !important;
+}
+
+.Button--Body > span, .Button--secondary > span {
+    color: white !Important;
 }
 }
 
