@@ -1,0 +1,249 @@
+@-moz-document domain("ebay-kleinanzeigen.de") {
+/* Page: General */
+body
+{
+    background-color: #232323;
+    overflow-x: hidden;
+}
+
+/* Page: Buttons */
+.button,
+.button:hover,
+.button-secondary,
+.button-secondary:hover,
+.button-tertiary,
+.button-tertiary:hover,
+#viewad-contact-button,
+.button-ghost,
+.button-ghost:hover,
+.follow-user-button,
+.follow-user-button:hover {
+    color: #fff;
+    background-color: #232323;
+    border: 1px solid #808080;
+}
+
+.follow-user-button > .button-icon,
+.button-ghost > .button-icon {
+    display: none;
+}
+
+/* PAGE: Header */
+header#site-header
+{
+    background-color: #000;
+    color: #939393;
+}
+a#user-logout
+{
+    color: #fff;
+}
+span#site-logo-claim
+{
+    color: #939393;
+}
+#site-searchbar
+{
+    background: #555653;
+}
+#site-search-submit
+{
+    background: black;
+}
+.mainnav-item-inner
+{
+    background-image: none !important;
+    padding-left: 7px !important;
+}
+#site-subnav,
+#site-subnav *
+{
+    background: #848484;
+    color: white !important;
+}
+
+/* PAGE: Home: Categories */
+#home-ctgrs,
+#browsebox-searchform *
+{
+    color: white;
+    background-color: #555653;
+}
+header > h3
+{
+    color: white;
+}
+#home-ctgrs * > a
+{
+    color: white;
+}
+
+/* Page: Breadcrumbs */
+.breadcrump-link
+{
+    color: white;
+    background: none !important;
+}
+.breadcrump-link:not(:last-child) span
+{
+    content: 'dd';
+}
+
+
+.pagination-current,
+.pagination-current:hover {
+    background: white;
+    color: black !important;
+}
+
+.pagination-page {
+    background: transparent;
+    color: white;
+}
+
+.pagination-pages span {
+    color: white;
+}
+
+
+.pagination-next:after {
+    content: '>';
+}
+
+.pagination-prev:after {
+    content: '<';
+}
+
+.pagination-prev,
+.pagination-next {
+    background: white !important;
+    color: black !important;
+}
+
+/* Page: Content */
+#site-content
+{
+    top: 0px !important;
+    position: relative !important;
+}
+
+.contentbox,
+.contentbox > .boxedarticle--details,
+.text-light,
+.text-bold *
+{
+    background: #1e1e1e;
+    color: white;
+}
+
+.simpletag,
+.srp-header,
+.srp-header *
+{
+    background: #434141 !important;
+    color: #fff !important;
+}
+
+/* Advertise: List */
+article.aditem, article.aditem * {
+    color: white !important;
+    background: #555653;
+}
+
+.aditem-main--top--left > i {
+    display: none;
+}
+
+.itemtile-body,
+.itemtile-body *,
+.itemtile-header
+{
+    background: #464646;
+    color: white !important;
+}
+
+.ellipsis {
+    background: transparent !important;
+    color: white;
+}
+
+/* Advertise: View */
+#viewad-main-info,
+#viewad-cntr-num,
+#viewad-details,
+#viewad-details *,
+#viewad-description,
+#viewad-description *,
+#viewad-contact-bottom,
+#viewad-configuration,
+#viewad-configuration *,
+#viewad-imprint-section,
+#viewad-imprint-section *,
+.sectionbox,
+.sectionbox *,
+.ad-listitem {
+    background: #1e1e1e !important;
+    color: white;
+}
+
+/* Advertise View: Profile */
+#viewad-bizteaser--title a {
+    color: white;
+}
+
+/* Advertise View: Content */
+.addetailslist--detail--value
+{
+    color: #aeaeae !important;
+}
+
+
+/* MISC CONTENT: Promoted and Generic */
+#home-tsr-srvy,
+#store-gallery,
+#home-gallery,
+#home-topcitybx,
+#site-footer,
+.j-viewad-contact-legal,
+.j-liberty-wrapper,
+header.splitheader,
+div[data-liberty-position-name]
+{
+    display: none;
+}
+
+.site-base--left-banner,
+.site-base--right-banner
+{
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    visibility: hidden !important;
+}
+
+.itemlist-separatedbefore > li:first-child,
+.itemlist-padded-separatedbefore > li:first-child,
+.itemlist > li + li,
+.itemlist-separatedbefore > li + li,
+.itemlist-padded-separatedbefore > li + li,
+.itemlist-separatedafter > li + li,
+.itemlist-padded-separatedafter > li + li,
+.itemlist-padded > li + li
+{
+    border-top: gray 1px solid !important;
+}
+.splitlinebox h1,
+.splitlinebox h2,
+.splitlinebox h3,
+.splitlinebox h4,
+.splitlinebox h5
+{
+    border-bottom: none;
+    padding-bottom: 16px;
+}
+}
+
+@-moz-document domain("ebay-kleinanzeigen.de") {
+
+}
